@@ -1,8 +1,9 @@
+ #a gúla és kúp térfogatának kiszámítása kör és téglalap területének segítségével
+    
+import math #hogy tudjam használni a math.pi-t
+
 def main():
-    #a gúla és kúp térfogatának kiszámítása kör és téglalap területének segítségével
-    
-    import math #hogy tudjam használni a math.pi-t
-    
+
     r=int(input("Add meg a kör sugarát (cm): ")) #sugár bekérése
     a=int(input("Add meg a téglalap 'a' oldalát (cm): ")) #téglalap 'a' oldalának bekérése
     b=int(input("Add meg a téglalap 'b' oldalát (cm): ")) #téglalap 'b' oldalának bekérése
